@@ -1,0 +1,62 @@
+
+/* Universal Rules */
+
+html {
+  font-size: 18px;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+/* Header Rules */
+
+header {
+  padding-top: 2rem;
+  height: 31rem;
+  background-image: url(../images/background-glasses.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Navbar Rules */
+
+nav {
+  padding: 1rem 1rem;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
