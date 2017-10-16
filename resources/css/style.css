@@ -52,11 +52,27 @@ nav {
 }
 
 .nav-button {
-  display: inline-block;
+
   padding: 0 1rem;
 }
 
 a {
   color: white;
   text-decoration: none;
+}
+
+/* Banner Rules */
+
+.banner {
+  background-color: white;
+  width: auto;
+  display: inline-block;
+  margin-top: 10rem;
+}
+
+.banner h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
 }
