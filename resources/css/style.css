@@ -203,11 +203,17 @@ footer img {
 
   .service {
     font-size: 0.77rem;
-    padding: 1.54rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+    height: auto;
+    margin: 0.77rem;
+  }
+
+  .service img {
+    margin-bottom: 1rem;
   }
 
   .philosophy {
-    margin-top: 3.77rem;
+    margin-top: 3rem;
   }
 
   .info, .title {
